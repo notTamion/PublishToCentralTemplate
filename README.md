@@ -10,7 +10,7 @@ I tried to remove anything that is not required and make it as minimal as possib
 - GPG_SECRET_KEY_PASSWORD: Password of the used key
 - SONATYPE_USERNAME: Username for Sonatype
 - SONATYPE_PASSWORD: Password for Sonatype
-2. When creating a release it will automatically publish to Maven Central
+2. When pushing a commit it will automatically publish to Maven Central
 
 ### How to use without Github actions:
 1. Setup gradle.properties like this and make sure you have the gpg key imported:
